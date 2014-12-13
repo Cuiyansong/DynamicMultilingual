@@ -35,5 +35,12 @@ namespace DynamicMultilingual
 
             Utilities.ResourceHelper.LoadResource(seleted);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var msg = Utilities.ResourceHelper.GetValue("Info_CodeBehind");
+
+            MessageBox.Show(msg);
+        }
     }
 }

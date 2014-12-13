@@ -33,5 +33,14 @@ namespace DynamicMultilingual.Utilities
                 Thread.CurrentThread.CurrentUICulture = cultureInfo;
             }
         }
+
+        public static string GetValue(string key)
+        {
+            if (!Application.Current.Resources.Contains(key))
+            {
+                return string.Format("Cannot find value with key of {0}", key);
+            }
+            return Application.Current.Resources[key].ToString();
+        }
     }
 }

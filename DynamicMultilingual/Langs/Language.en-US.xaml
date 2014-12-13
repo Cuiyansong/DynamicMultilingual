@@ -4,4 +4,5 @@
     
     <s:String x:Key="MainWindow_Title">WPF I18N Solution By Stephen Cui</s:String>
     <s:String x:Key="MainWindow_HelloWorld">Hello World!</s:String>
+    <s:String x:Key="Info_CodeBehind">I m trying codebehind to show message!</s:String>
 </ResourceDictionary>
