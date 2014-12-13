@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:s="clr-namespace:System;assembly=mscorlib">
 
-    <s:String x:Key="MainWindow_Title">WPF I18N Solution By Stephen Cui</s:String>
-    <s:String x:Key="MainWindow_HelloWorld">Hello World!</s:String>
-    <s:String x:Key="Info_CodeBehind">I m trying codebehind to show message!</s:String>
+    <s:String x:Key="MainWindow_Title">Steven cui wpf - i18n - lösung</s:String>
+    <s:String x:Key="MainWindow_HelloWorld">Hallo Welt!</s:String>
+    <s:String x:Key="Info_CodeBehind">Ich versuchte, das zeigt die nachricht!</s:String>
 </ResourceDictionary>
