@@ -20,6 +20,8 @@ namespace DynamicMultilingual
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string ShowInfo = "Show Info";
+
         public MainWindow()
         {
             InitializeComponent();

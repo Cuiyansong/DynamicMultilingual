@@ -3,6 +3,7 @@
                     xmlns:s="clr-namespace:System;assembly=mscorlib">
 
     <s:String x:Key="MainWindow_Title">Steven cui wpf - i18n - lösung</s:String>
+    <s:String x:Key="MainWindow_SelectLanguage">Die Wahl der Sprache</s:String>
     <s:String x:Key="MainWindow_HelloWorld">Hallo Welt!</s:String>
     <s:String x:Key="Info_CodeBehind">Ich versuchte, das zeigt die nachricht!</s:String>
 </ResourceDictionary>
